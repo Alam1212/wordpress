@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="mystyle.css" type="text/css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <div class="outerDiv">
+        <header><img id="imgLogo" src="logo.jpg" alt="logo" class="imageLogo"><span class="spanStyle">Contact</span></header>
+        <img id="factory" src="factory.jpg" alt="factory" title="Word Press Factory">
+        <nav>
+            <ul id="navBar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="multiuser.html">multiuser</a>
+                </li>
+                <li>
+                    <a href="vulnerabilities.html">vulnerabilities</a>
+                </li>
+                <li>
+                    <a href="future.html">future</a>
+                    <div class="dropdown-content width100">
+                        <a href="training.html" target="_blank" >Training</a>
+                        <a href="https://wpshout.com/courses/learn-wordpress-development-the-basic-course/wordpress-is-a-factory/" target="_blank" >Word Press</a>
+                    </div>
+                </li>
+                <li class="floatRight">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav><br>
+        <h1 class="registration">Registration: Please fill the form below to contact us.</h1>
+        <form id="contactForm">
+            <label for="fname" class="underline"><strong>First Name :</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" id="fname"><br /><br />
+            <label for="lname" class="underline"><strong>Last name :</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" id="lname"><br /><br />
+            <label for="email" class="underline"><strong>E-mail :</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id="email" /><br /><br />
+            <label for="phone" class="underline"><strong>Phone number :</strong></label><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br /><br />
+            <span><b><u>Format:</u></b> 123-456-7890</span><br /><br />
+            <input type="checkbox" name="gender" value="Male">Male<br>
+            <input type="checkbox" name="gender" value="Female">Female<br>
+            <br />
+            <input type="radio" name="age" value="Adult">Adult<br>
+            <input type="radio" name="age" value="Teenager">Teenager<br>
+            <br />
+            <label for="today" class="underline"><b>Date :</b></label>&nbsp;
+            <input type="date" name="today" id="today">
+            <br />
+            <br />
+            <label for="comments" class="underline"><b>Comments :</b></label><br>
+            <textarea rows="4" cols="40" id="comments">
+            </textarea> <br><br>
+            <label for="Severity" class="underline"><b>Severity :</b></label>
+            <select id="Severity">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br>
+        </form>
+        <div class="floatRight wordPressSupport" >
+            <img src="WordPressSupport.png" alt="Word Press Support" usemap="#wordPressSupportMap">
+
+            <map name="wordPressSupportMap">
+                <area target="_blank" alt="Word Press Support" title="Word Press Support" href="https://en.support.wordpress.com/" coords="32,160,25" shape="circle">
+                <area target="_blank" alt="Word Press Contact" title="Word Press Contact" href="https://en.support.wordpress.com/contact/" coords="98,160,25" shape="circle">
+                <area target="_blank" alt="Live Chat" title="Live Chat" href="https://en.support.wordpress.com/live-chat/" coords="159,160,22" shape="circle">
+                <area target="_blank" alt="Word Press Start" title="Word Press Start" href="https://en.support.wordpress.com/start/" coords="222,160,26" shape="circle">
+                <area target="_blank" alt="Word Press Basic usage" title="Word Press Basic usage" href="https://wordpress.org/support/category/basic-usage/" coords="285,160,28" shape="circle">
+            </map>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <em>Copyright � WORD Press</em><br>
+            <a href="mailto:"></a>
+        </footer>
+    </div>
+</body>
+</html>
